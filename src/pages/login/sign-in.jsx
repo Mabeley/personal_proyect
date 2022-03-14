@@ -24,7 +24,7 @@ export function Signin() {
             <p>Recordar</p>
           </div>
           <div>
-            <a href="#">¿Olvidaste la contraseña?</a>
+            <NavLink to ="/reset-password">¿Olvidaste la contraseña?</NavLink>
           </div>
         </div>
         <div className="login_button">

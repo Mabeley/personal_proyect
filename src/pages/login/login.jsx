@@ -3,6 +3,7 @@ import "./login.scss";
 import { Signin } from "./sign-in";
 import {Signup} from "./sign-up";
 import {MainLogin} from "../../components/main-login";
+import {ResetPassword} from "./reset-password";
 export function Login() {
   return (
     <div className="login bg-gray-800">
@@ -20,6 +21,9 @@ export function Login() {
             </Route>
             <Route path="/sign-up">
               <Signup/>
+            </Route>
+            <Route path="/reset-password">
+              <ResetPassword/>
             </Route>
           </Switch>
         </MainLogin>

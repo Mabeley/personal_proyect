@@ -10,6 +10,7 @@ import {MainLogin} from "./components/main-login";
 import './App'
 import { Signin } from "./pages/login/sign-in";
 import{Signup} from "./pages/login/sign-up";
+import { ResetPassword } from "./pages/login/reset-password";
 
 export function App() {
   return (
@@ -23,6 +24,9 @@ export function App() {
             </Route>
             <Route path="/sign-up">
               <Signup/>
+            </Route>
+            <Route path="/reset-password">
+              <ResetPassword/>
             </Route>
           <Redirect from ="/" to="sign-in"/>
         </Switch>
