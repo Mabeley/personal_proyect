@@ -1,0 +1,15 @@
+@import "./../../assets/style/css.scss";
+
+* {
+    box-sizing: border-box;
+  }
+
+.line{
+    width: 180px;
+    height:2px;
+    display: block;
+    background:gray;
+    
+}
+
+
